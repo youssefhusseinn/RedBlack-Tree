@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         RBTree tree = new RBTree(null);
-	    Scanner scanner = new Scanner(System.in);
+	    Scanner scanner = new Scanner(System.in).useDelimiter("\n");
 
 	    int input;
 	    boolean loop = true;
@@ -39,7 +39,8 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Insert desired word: ");
-                    String searchWord = scanner.next();
+                    String searchWord = "";
+                    searchWord += scanner.next();
                     if(tree.search(tree.root,searchWord))
                         System.out.println(searchWord+" exists!");
                     else

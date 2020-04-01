@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55577e09-953f-4896-976d-f1a4dfc7154d" name="Default Changelist" comment="" />
+    <list default="true" id="55577e09-953f-4896-976d-f1a4dfc7154d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +18,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZYMh7pIi8RJaYjdvskHH0kpIcj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -56,7 +65,7 @@
       <workItem from="1585337824549" duration="6902000" />
       <workItem from="1585522405027" duration="29084000" />
       <workItem from="1585707979692" duration="3616000" />
-      <workItem from="1585765362059" duration="1330000" />
+      <workItem from="1585765362059" duration="2950000" />
     </task>
     <servers />
   </component>
@@ -84,22 +93,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.-1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585530102407" />
-    <state width="1874" height="425" key="GridCell.Tab.0.bottom" timestamp="1585766691040">
+    <state width="1874" height="425" key="GridCell.Tab.0.bottom" timestamp="1585767688356">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585766691040" />
-    <state width="1874" height="425" key="GridCell.Tab.0.center" timestamp="1585766691039">
+    <state width="1874" height="425" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688356" />
+    <state width="1874" height="425" key="GridCell.Tab.0.center" timestamp="1585767688355">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585766691039" />
-    <state width="1874" height="425" key="GridCell.Tab.0.left" timestamp="1585766691038">
+    <state width="1874" height="425" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688355" />
+    <state width="1874" height="425" key="GridCell.Tab.0.left" timestamp="1585767688355">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585766691038" />
-    <state width="1874" height="425" key="GridCell.Tab.0.right" timestamp="1585766691040">
+    <state width="1874" height="425" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688355" />
+    <state width="1874" height="425" key="GridCell.Tab.0.right" timestamp="1585767688356">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585766691040" />
+    <state width="1874" height="425" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688356" />
     <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1585530098088">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -136,6 +145,16 @@
           <url>jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/lang/Math.class</url>
           <line>372</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
