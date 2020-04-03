@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55577e09-953f-4896-976d-f1a4dfc7154d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Red Black Trees Dictionary/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Red Black Trees Dictionary/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,18 +65,38 @@
       <workItem from="1585337824549" duration="6902000" />
       <workItem from="1585522405027" duration="29084000" />
       <workItem from="1585707979692" duration="3616000" />
-      <workItem from="1585765362059" duration="2950000" />
+      <workItem from="1585765362059" duration="4331000" />
+      <workItem from="1585870409390" duration="2281000" />
+      <workItem from="1585929073254" duration="555000" />
+      <workItem from="1585941958501" duration="627000" />
+      <workItem from="1585949105195" duration="366000" />
     </task>
+    <task id="LOCAL-00001" summary="String delimiter new line.">
+      <created>1585768359220</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585768359220</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="String delimiter new line." />
+    <option name="LAST_COMMIT_MESSAGE" value="String delimiter new line." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585601361919">
+    <state x="469" y="144" width="971" height="816" key="CommitChangelistDialog2" timestamp="1585768359066">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585601361919" />
+    <state x="469" y="144" width="971" height="816" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1585768359066" />
+    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585929478397">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1585929478397" />
     <state width="1874" height="344" key="GridCell.Tab.-1.bottom" timestamp="1585530102407">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -93,22 +113,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.-1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585530102407" />
-    <state width="1874" height="425" key="GridCell.Tab.0.bottom" timestamp="1585767688356">
+    <state width="1874" height="425" key="GridCell.Tab.0.bottom" timestamp="1585949453898">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688356" />
-    <state width="1874" height="425" key="GridCell.Tab.0.center" timestamp="1585767688355">
+    <state width="1874" height="425" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585949453898" />
+    <state width="1874" height="425" key="GridCell.Tab.0.center" timestamp="1585949453897">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688355" />
-    <state width="1874" height="425" key="GridCell.Tab.0.left" timestamp="1585767688355">
+    <state width="1874" height="425" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585949453897" />
+    <state width="1874" height="425" key="GridCell.Tab.0.left" timestamp="1585949453896">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688355" />
-    <state width="1874" height="425" key="GridCell.Tab.0.right" timestamp="1585767688356">
+    <state width="1874" height="425" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585949453896" />
+    <state width="1874" height="425" key="GridCell.Tab.0.right" timestamp="1585949453898">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="425" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585767688356" />
+    <state width="1874" height="425" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585949453898" />
     <state width="1874" height="344" key="GridCell.Tab.1.bottom" timestamp="1585530098088">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -125,10 +145,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="344" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585530098087" />
-    <state x="269" y="154" width="1372" height="796" key="new project wizard" timestamp="1585522457923">
+    <state x="269" y="154" width="1372" height="796" key="new project wizard" timestamp="1585877538120">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="269" y="154" width="1372" height="796" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1585522457923" />
+    <state x="269" y="154" width="1372" height="796" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1585877538120" />
     <state x="624" y="253" key="run.anything.popup" timestamp="1585340845049">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -148,12 +168,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>30</line>
+          <line>35</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>42</line>
+          <line>47</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>

@@ -10,6 +10,7 @@ public class Main {
 
 	    int input;
 	    boolean loop = true;
+	    boolean loaded = false;
 	    while(loop) {
             do {
                 System.out.println("===========================\n  Size of dictionary: "+tree.treeSize(tree.root));
@@ -17,17 +18,21 @@ public class Main {
                 System.out.println("===========================\n|| 1 - Load Dictionary   ||\n|| 2 - Insert Words      ||\n|| 3 - Look-up Words     ||\n|| 4 - Print Tree        ||\n|| 5 - Terminate Program ||\n===========================");
                 try {
                     input = scanner.nextInt();
-                    //input = 1;
                 }
                 catch (Exception e){
                     System.out.println("Please insert a correct number.");
                     input = -1;
                 }
             } while (!(input == 1 || input == 2 || input == 3 || input == 4 || input == 5));
-
             switch (input){
                 case 1:
-                    loadDictionary(tree);
+                    if(!loaded) {
+                        loadDictionary(tree);
+                        loaded = true;
+                        System.out.println("Root of tree is: " + tree.root.val);
+                    }
+                    else
+                        System.out.println("File already loaded!");
                     break;
                 case 2:
                     System.out.println("Insert new word: ");
