@@ -65,8 +65,8 @@ public class Main {
 
     public static void loadDictionary(RBTree tree){
         try{
-            //Scanner reader = new Scanner(new File("EN-US-randomized-unique updated.txt"));
-            Scanner reader = new Scanner(new File("file.txt"));
+            Scanner reader = new Scanner(new File("EN-US-randomized-unique updated.txt"));
+            //Scanner reader = new Scanner(new File("file.txt"));
             while (reader.hasNextLine())
                 tree.insert(reader.nextLine());
             reader.close();

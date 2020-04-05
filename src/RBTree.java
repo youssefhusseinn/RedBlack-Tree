@@ -2,7 +2,7 @@ import java.util.*;
 
 public class RBTree {
 
-    static Node root;
+    Node root;
 
     public RBTree(Node root){
         this.root = root;
@@ -14,7 +14,7 @@ public class RBTree {
        fixTree(node);
     }
 
-    public void fixTree(Node node){
+    private void fixTree(Node node){
 
         while(node != this.root && node.color.equals("red") && node.parent.color.equals("red")){
             //case 1: parent of node is the left child of the node's grandparent
@@ -66,7 +66,7 @@ public class RBTree {
         this.root.color = "black";
     }
 
-    public void leftRotate(Node node){
+    private void leftRotate(Node node){
         Node tempRight = node.right;
         node.right = tempRight.left;
         if(node.right != null)
@@ -82,7 +82,7 @@ public class RBTree {
         node.parent = tempRight;
     }
 
-    public void rightRotate(Node node){
+    private void rightRotate(Node node){
         Node tempLeft = node.left;
         node.left = tempLeft.right;
         if(node.left != null)
@@ -98,14 +98,14 @@ public class RBTree {
         node.parent = tempLeft;
     }
 
-    public Node findNewPlace(Node root, Node node){
+    private Node findNewPlace(Node root, Node node){
         if(root == null)
             return node;
-        if(node.val.compareTo(root.val) > 0){
+        if(node.val.compareToIgnoreCase(root.val) > 0){
             root.right = findNewPlace(root.right,node);
             root.right.parent = root;
         }
-        else if(node.val.compareTo(root.val) < 0){
+        else if(node.val.compareToIgnoreCase(root.val) < 0){
             root.left = findNewPlace(root.left,node);
             root.left.parent = root;
         }
@@ -115,9 +115,9 @@ public class RBTree {
     public boolean search(Node root, String key){
         if(root == null)
             return false;
-        if(key.compareTo(root.val) == 0)
+        if(key.compareToIgnoreCase(root.val) == 0)
             return true;
-        if(key.compareTo(root.val) > 0)
+        if(key.compareToIgnoreCase(root.val) > 0)
             return search(root.right,key);
         return search(root.left,key);
     }
@@ -164,7 +164,7 @@ public class RBTree {
         list.clear();
     }
 
-    public void bfs(Node root,List<String> list){
+    private void bfs(Node root,List<String> list){
         if(root == null)
             return;
         Queue<Node> queue = new LinkedList<>();
@@ -179,7 +179,7 @@ public class RBTree {
         }
     }
 
-    public void dfs(Node root, List<String> list){
+    private void dfs(Node root, List<String> list){
         if(root == null)
             return;
         Stack<Node> stack = new Stack<>();
@@ -194,7 +194,7 @@ public class RBTree {
         }
     }
 
-    public void inorder(Node root,List<String> list){
+    private void inorder(Node root,List<String> list){
         if(root == null)
             return;
         inorder(root.left,list);
@@ -202,7 +202,7 @@ public class RBTree {
         inorder(root.right,list);
     }
 
-    public void preorder(Node root,List<String> list){
+    private void preorder(Node root,List<String> list){
         if(root == null)
             return;
         list.add(root.val+"  "+root.color);
@@ -210,7 +210,7 @@ public class RBTree {
         inorder(root.right,list);
     }
 
-    public void postorder(Node root,List<String> list){
+    private void postorder(Node root,List<String> list){
         if(root == null)
             return;
         inorder(root.left,list);
